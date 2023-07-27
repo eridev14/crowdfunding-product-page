@@ -1,0 +1,139 @@
+.header {
+  height: calc(100vh - 250px);
+  background-image: url("../images/image-hero-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0 50px 50px 0 rgba(0, 0, 0, 0.767);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 9rem;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 1.5em;
+}
+.menu__link {
+  text-decoration: none;
+  color: white;
+}
+
+.cards-container {
+  position: relative;
+  top: -80px;
+  margin-left: auto;
+  margin-right: auto;
+  width: calc(100% - 1em);
+  max-width: 730px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 1em;
+  border: 1px solid rgb(238, 238, 238);
+  padding: 2.5em;
+  margin-bottom: 1.8em;
+}
+.card--top {
+  position: relative;
+  text-align: center;
+}
+.card--sub {
+  padding: 1.5em;
+  border: 2px solid rgb(238, 238, 238);
+}
+.card__logo {
+  position: absolute;
+  top: -30px;
+  width: calc(100% - 4em);
+  display: flex;
+  justify-content: center;
+}
+.card__title {
+  text-align: center;
+  margin: 10px 0;
+}
+.card__title--proyect {
+  text-align: start;
+}
+.card__text {
+  margin-bottom: 1.5rem;
+  font-size: 1.1em;
+  font-weight: 100;
+  color: rgb(94, 94, 94);
+}
+.card__div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card__reg {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+.card__number {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em 0;
+}
+.card__number:nth-child(2) {
+  border-left: 1px solid rgb(180, 180, 180);
+  border-right: 1px solid rgb(180, 180, 180);
+}
+.card__backed {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.card__progres {
+  position: relative;
+  width: 100%;
+  height: 1em;
+  background-color: rgb(221, 221, 221);
+  border-radius: 1em;
+  overflow: hidden;
+}
+.card__point {
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  background-color: hsl(176, 50%, 47%);
+}
+
+.btn {
+  background: none;
+  border: none;
+  border-radius: 2rem;
+  padding: 1.125rem 2.5rem;
+  background-color: hsl(176, 50%, 47%);
+  color: white;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: hsl(176, 72%, 28%);
+}
+.btn--book {
+  background-color: rgb(224, 224, 224);
+  color: hsl(176, 50%, 47%);
+}
+.btn__text {
+  color: inherit;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
